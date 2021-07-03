@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\structures\ds_routines.h" />
+    <ClInclude Include="..\structures\heap_monitor.h" />
+    <ClInclude Include="..\structures\structure.h" />
+    <ClInclude Include="..\structures\array\array.h">
+      <Filter>array</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\vector\vector.h">
+      <Filter>vector</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMeasurement.h" />
+    <ClInclude Include="..\structures\list\array_list.h">
+      <Filter>list</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\list\linked_list.h">
+      <Filter>list</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\list\list.h">
+      <Filter>list</Filter>
+    </ClInclude>
+    <ClInclude Include="implicit_matrix.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="explicit_matrix.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixTester.h">
+      <Filter>tester</Filter>
+    </ClInclude>
+    <ClInclude Include="TestApp.h">
+      <Filter>tester</Filter>
+    </ClInclude>
+    <ClInclude Include="Konstanty.h" />
+    <ClInclude Include="..\structures\priority_queue\heap.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\priority_queue\priority_queue.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\priority_queue\priority_queue_limited_sorted_array_list.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\priority_queue\priority_queue_linked_list.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\priority_queue\priority_queue_list.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\priority_queue\priority_queue_sorted_array_list.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\priority_queue\priority_queue_two_lists.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\priority_queue\priority_queue_unsorted_array_list.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="ListTester.h">
+      <Filter>tester</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueTester.h">
+      <Filter>tester</Filter>
+    </ClInclude>
+    <ClInclude Include="VytvaracSuvislychMatic.h">
+      <Filter>tester</Filter>
+    </ClInclude>
+    <ClInclude Include="VytvaracMatic.h">
+      <Filter>tester</Filter>
+    </ClInclude>
+    <ClInclude Include="VytvaracNesuvislychMatic.h">
+      <Filter>tester</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\list\DoublyCircularLinkedList.h">
+      <Filter>list</Filter>
+    </ClInclude>
+    <ClInclude Include="Mnozina.h">
+      <Filter>set</Filter>
+    </ClInclude>
+    <ClInclude Include="SetTester.h" />
+    <ClInclude Include="..\structures\table\binary_search_tree.h">
+      <Filter>table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\table\sequence_table.h">
+      <Filter>table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\table\sorted_sequence_table.h">
+      <Filter>table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\table\table.h">
+      <Filter>table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\table\treap.h">
+      <Filter>table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\tree\binary_tree.h">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\tree\k_way_tree.h">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\tree\multi_way_tree.h">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\tree\tree.h">
+      <Filter>tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\table\hash_table.h">
+      <Filter>table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\structures\table\linked_table.h">
+      <Filter>table</Filter>
+    </ClInclude>
+    <ClInclude Include="TableTester.h">
+      <Filter>tester</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\structures\ds_routines.cpp" />
+    <ClCompile Include="..\structures\structure.cpp" />
+    <ClCompile Include="..\structures\vector\vector.cpp">
+      <Filter>vector</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMeasurement.cpp" />
+    <ClCompile Include="main.cpp">
+      <Filter>tester</Filter>
+    </ClCompile>
+    <ClCompile Include="TestApp.cpp">
+      <Filter>tester</Filter>
+    </ClCompile>
+    <ClCompile Include="Mnozina.cpp">
+      <Filter>set</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="array">
+      <UniqueIdentifier>{15f56329-5df4-4c0e-870d-fb36bf4abb7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vector">
+      <UniqueIdentifier>{f33960ad-bd7b-4f3e-acaf-440cc85f4491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="list">
+      <UniqueIdentifier>{e185eb40-0c60-4d87-a408-bab967b475af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matrix">
+      <UniqueIdentifier>{a585cb21-dbc1-4b0b-be33-1263e53d7a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="set">
+      <UniqueIdentifier>{2f0fd676-d2ca-4290-8d59-2559a1b4f852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tester">
+      <UniqueIdentifier>{4eb7b684-0669-4930-8caf-9b355b0f78df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="priority_queue">
+      <UniqueIdentifier>{d1e0531d-2a8d-43e5-8d4c-c9f8e81a10a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="table">
+      <UniqueIdentifier>{4a76dce3-d30c-4e0c-8ec4-a9706c11cbed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tree">
+      <UniqueIdentifier>{89dde77b-664c-41a8-8efb-69827a61c35c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
